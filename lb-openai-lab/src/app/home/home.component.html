@@ -1,0 +1,4 @@
+<h1>AI Lab</h1>
+<input [(ngModel)]="question" placeholder="Ask a question" />
+<button [disabled]="!question" (click)="onAsk()">Ask</button>
+<pre>{{ result | json }}</pre>

@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "ng serve",
+    "lint": "ng lint",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@angular-eslint/builder": "^latest",
+    "@angular-eslint/eslint-plugin": "^latest",
+    "@angular-eslint/eslint-plugin-template": "^latest",
+    "@angular-eslint/schematics": "^latest",
+    "@angular-eslint/template-parser": "^latest",
+    "prettier": "^latest"
+  }
+}
